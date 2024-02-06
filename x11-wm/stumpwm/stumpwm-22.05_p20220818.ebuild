@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -23,7 +23,7 @@ RESTRICT="strip"
 RDEPEND="dev-lisp/alexandria
 		dev-lisp/cl-ppcre
 		dev-lisp/clx
-		>=dev-lisp/sbcl-1.3.0
+		>=dev-lisp/sbcl-1.3.0:=
 		emacs? ( >=app-editors/emacs-23.1:* )"
 DEPEND="${RDEPEND}"
 BDEPEND="sys-apps/texinfo
